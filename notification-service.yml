@@ -5,8 +5,7 @@ server:
 spring:
   application:
     name: notification-service
-  config:
-    import: "optional:configserver:http://192.168.239.1:8888"
+
   cloud:
     config:
       fail-fast: false
@@ -71,6 +70,7 @@ logging:
   level:
     com.devbuild.notification: DEBUG
     org.springframework.mail: DEBUG
+
 
 
 
