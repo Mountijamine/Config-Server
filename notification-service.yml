@@ -5,7 +5,6 @@ server:
 spring:
   application:
     name: notification-service
-
   cloud:
     config:
       fail-fast: false
@@ -32,7 +31,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: swilahtache@gmail.com
-   password: "toet scgm lnfr hekr"
+    password: "toet scgm lnfr hekr"
     properties:
       mail:
         smtp:
@@ -71,8 +70,3 @@ logging:
   level:
     com.devbuild.notification: DEBUG
     org.springframework.mail: DEBUG
-
-
-
-
-
