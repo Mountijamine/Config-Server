@@ -30,8 +30,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: swilahtache@gmail.com
-    password: "toet scgm lnfr hekr"
+    username: swilahswilah82@gmail.com
+    password: "qktb tlfy ryte werz"
     properties:
       mail:
         smtp:
@@ -70,3 +70,4 @@ logging:
   level:
     com.devbuild.notification: DEBUG
     org.springframework.mail: DEBUG
+
